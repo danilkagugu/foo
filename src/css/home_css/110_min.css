@@ -1,0 +1,110 @@
+.DailyNormContainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+.DailyNormBackgroundImage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 335px;
+  height: 269px;
+  background-image: url(/img/mob/basement/women.bas.mob.png);
+}
+.H4Text {
+  font-weight: 500;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 2px;
+}
+.DailyNormDiv {
+  display: flex;
+  border-radius: 30px;
+  background: rgb(27, 27, 27);
+  color: rgba(246, 246, 246, 0.6);
+  width: 100%;
+}
+.DailyNormIcon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: rgba(246, 246, 246, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.DailyNormSvg {
+  fill: rgb(246, 246, 246);
+}
+.DailyNormDivInfo {
+  margin: 40px 20px 40px 70px;
+}
+.DailyNormInfo {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 14px;
+}
+
+/*media*/
+@media only screen and (min-resolution: 192dpi) and (min-width: 375px) {
+  .DailyNormBackgroundImage {
+    background-image: url(/img/mob/basement/women.bas.mob@2x.png);
+  }
+}
+@media screen and (min-width: 375px) {
+  .DailyNormDiv {
+    width: 335px;
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .DailyNormBackgroundImage {
+    background-image: url(/img/tablet/basament/women.bas.tab@2x.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  .DailyNormDiv {
+    width: 736px;
+  }
+  .DailyNormBackgroundImage {
+    max-width: 736px;
+    height: 302px;
+    background-image: url(/img/tablet/basament/women.bas.tab.png);
+  }
+  .DailyNormIcon {
+    margin-top: 65px;
+    margin-left: 64px;
+  }
+  .DailyNormInfo {
+    margin-top: 25px;
+  }
+  .DailyNormDivInfo {
+    margin: 64px 96px 64px 114px;
+  }
+}
+@media only screen and (min-resolution: 192dpi) and (min-width: 1440px) {
+  .DailyNormBackgroundImage {
+    background-image: url(/img/desktop/basament/women.bas@2x.png);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .DailyNormContainer {
+    display: flex;
+  }
+
+  .DailyNormDiv {
+    width: 704px;
+  }
+  .DailyNormBackgroundImage {
+    width: 704px;
+    height: 302px;
+    background-image: url(/img/desktop/basament/women.bas.png);
+  }
+  .DailyNormDivInfo {
+    margin-right: 64px;
+  }
+}
